@@ -15,13 +15,13 @@ public class QuadraticEquation{
         if(s>0){
             double m=Math.sqrt(s);
             x1=(-b+(m))/2*a;
-            x1=(-b-(m))/2*a;
+            x2=(-b-(m))/2*a;
             System.out.println(x1);
             System.out.println(x2);
         }else{
             double m=Math.sqrt(s);
             x1=(-b+(m))/2*a;
-            x1=(-b-(m))/2*a;
+            x2=(-b-(m))/2*a;
             System.out.println(x1+"i");
             System.out.println(x2+"i");
         }
